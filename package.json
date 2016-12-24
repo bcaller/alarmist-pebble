@@ -1,0 +1,42 @@
+{
+    "author": "bcaller@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "alarmist",
+    "pebble": {
+        "displayName": "Alarmist",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/alarmist-menu-icon.png",
+                    "menuIcon": true,
+                    "name": "MENU",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[0-9:]",
+                    "file": "fonts/MONO.TTF",
+                    "name": "FONT_MONO_48",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "5cfa8e91-5c31-4287-9b57-e0f14ae72b34",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "4.3.0"
+}
